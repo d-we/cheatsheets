@@ -47,6 +47,7 @@
 - autoname functions: `aan`
 - search for C++ vtables: `av`
 - parse RTTI for each vtable: `afra`
+- show all functions and the functions they call: `aflm`
 
 ## Annotate
 - change current function name: `afn <new_name>`
