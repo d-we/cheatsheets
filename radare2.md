@@ -86,7 +86,7 @@
 - show help of cmd: `<cmd>?`
 - open cmd output in r2-internal less: `<cmd>~..`
 - open cmd output in r2 interactive search: `<cmd>~...`
-- ope
+- r2 internal grep: `<cmd>~<keyword>`
 - export informations to r2-script: `<cmd>* > run_me.r2` - all commands ending in * will output r2 commands
 - TODO: config variables
 
