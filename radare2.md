@@ -101,7 +101,7 @@
 
 ## Debugging forking binaries:
 - commands related to child processes: `dp?`
-- follow child while debugging: `e dbg.follow.child = true` - last time I checked this it was broken
+- follow child while debugging: `e dbg.follow.child = true` - last time I checked this, it was broken(see workaround)
 
 ### Workaround for debugging childs:
 - 1: use `e dbg.forks = true` - will set breakpoint on child aswell
