@@ -100,10 +100,24 @@
 - find offset in De Bruijn pattern: `wopO <value>` - e.g. `wopO 0x41424344`
 
 ## Debugging forking binaries:
-- TODO
+- commands related to child processes: `dp?`
+- follow child while debugging: `e dbg.follow.child = true` - last time I checked this it was broken
+
+### Workaround for debugging childs:
+- 1: use `e dbg.forks = true` - will set breakpoint on child aswell
+- 2: set breakpoint after the fork & continue
+- 3: on breakpoint(after fork) use `dpc`, which will switch to the latest forked child
 
 ## Debugging using 2 terminals:
-- TODO
+1: On Terminal-1: `tty` output will be referred as $tty. 
+   On Terminal-1: `sleep 99999`
+
+2: Create rarun-profile with the following content:
+   ```
+   #! /usr/bin/rarun2
+   stdio=$tty
+   ```
+3: On Terminal-2: `r2 -r <profile_file>.rr2 -d <binary>`
 
 ## Writing ELF-header:
 - TODO
