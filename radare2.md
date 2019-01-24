@@ -119,6 +119,8 @@
    ```
 3: On Terminal-2: `r2 -r <profile_file>.rr2 -d <binary>`
 
+## Radare Lifehacks
+- interactive search for r2-commands: `alias rahelp2="r2 -q -c '?*~...' -"` - just add it to shell config
 ## Writing ELF-header:
 - TODO
 
