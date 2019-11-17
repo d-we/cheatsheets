@@ -54,6 +54,7 @@
 
 
 ## gdb config (vanilla gdb)
+Just add the following to `~/.gdbinit`:
 ```
 set disassembly intel
 set print asm-demangle on
