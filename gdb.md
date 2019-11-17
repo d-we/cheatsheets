@@ -14,11 +14,10 @@
 - Breakpoint at source line: `break <file>:<line-number>`
 
 - Run until next breakpoint: `continue`
-- Run until return of functin: `finish`
+- Run until return of function: `finish`
 - Run program until condition is false: `watch <condition>`
 - Step to next source-code instruction: `step`
 - Step to next assembly instruction: `stepi` or `si`
-- 
 
 ## Examine Memory
 - Print variable content: `print <var-name>`
