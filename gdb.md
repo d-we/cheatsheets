@@ -12,6 +12,8 @@
 - Breakpoint at address: `break <addr>`
 - Breakpoint at function: `break <fun-name>`
 - Breakpoint at source line: `break <file>:<line-number>`
+- List breakpoints: `info breakpoints`
+- Delete breakpoint: `delete <breakpoint-no>`
 
 - Run until next breakpoint: `continue`
 - Run until return of function: `finish`
