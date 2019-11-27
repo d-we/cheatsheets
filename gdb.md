@@ -51,7 +51,7 @@
     * `(no)print`: (Don't) print a message upon catching signal
     * `(no)stop`: (Don't) stop the program upon catching signal
     * `(no)pass`: (Don't) pass the signal to debuggee upon catching signal
-  * e.g. `handle SIGSEGV nostop noprint pass` (useful for debugging Java programs`
+  * e.g. `handle SIGSEGV nostop noprint pass` (useful for debugging Java programs)
 
 
 ## gdb config (vanilla gdb)
@@ -66,3 +66,8 @@ winheight CMD -5
 winheight ASM +5
 focus cmd
 ```
+
+## some nice gdb helpers
+The following tools really make your life in gdb easier and enhance the features gdb provides:
+- [gef](https://github.com/hugsy/gef)
+- [pwndbg](https://github.com/pwndbg/pwndbg)
