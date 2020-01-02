@@ -20,7 +20,7 @@
 - Run program until condition is false: `watch <condition>`
 - Step to next source-code instruction: `step`
 - Step to next assembly instruction: `stepi` or `si`
-- Step-over `next`
+- Step-over: `next`
 
 ## Examine Memory
 - Print variable content: `print <var-name>`
