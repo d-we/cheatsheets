@@ -23,6 +23,9 @@
 - Step-over (source-line): `next`
 - Step-over (instruction): `nexti`
 
+## Concurrent Execution
+- List threads: `info threads`
+- Follow thread: `thread <no>`
 
 ## Examine Memory
 - Print variable content: `print <var-name>`
@@ -45,7 +48,6 @@
 - Show disassembly: `disassemble`
 - Show disassembly for function/address: `disassemble <fun-name/addr>`
 - Show functions: `info functions`
-- Show threads: `info threads`
 - Show source-code: `list <filename>:<fun-name/line-number>`
 
 ## Miscellaneous
