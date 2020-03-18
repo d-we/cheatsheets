@@ -61,6 +61,9 @@
     * `(no)pass`: (Don't) pass the signal to debuggee upon catching signal
   * e.g. `handle SIGSEGV nostop noprint pass` (useful for debugging Java programs)
 
+## gef-specific
+- Heap-base: `p $_heap()`
+- Libc-base: `p $_base("libc")`
 
 ## gdb config (vanilla gdb)
 Just add the following to `~/.gdbinit`:
