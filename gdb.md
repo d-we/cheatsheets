@@ -64,6 +64,7 @@
 ## gef-specific
 - Heap-base: `p $_heap()`
 - Libc-base: `p $_base("libc")`
+- Binary-base: `p $_base()`
 
 ## gdb config (vanilla gdb)
 Just add the following to `~/.gdbinit`:
