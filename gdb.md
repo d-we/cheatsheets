@@ -65,6 +65,7 @@
 - Heap-base: `p $_heap()`
 - Libc-base: `p $_base("libc")`
 - Binary-base: `p $_base()`
+- Show Address and surroundings `telescope <addr>`
 
 ## gdb config (vanilla gdb)
 Just add the following to `~/.gdbinit`:
