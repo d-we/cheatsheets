@@ -4,6 +4,7 @@
 - Start gdb with binary: `gdb <binary>`
 - Start gdb with binary and args: `gdb --args <binary> <args>`
 - Attach gdb to process: `gdb -p <pid>`
+- Open Coredump: `gdb <binary> <coredump of binary>`
 
 ## Handling Execution
 - Start execution: `run`
