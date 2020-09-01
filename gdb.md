@@ -47,6 +47,9 @@
     * x: hexa-decimal
     * b: binary
   * e.g. `x/gx $rdi`
+- Dump memory to a file: `dump binary memory <out-filename> <memory-addr-start> <memory-addr-end>`
+  * note that the end address is exclusive
+
 
 ## Gather Information
 - Show disassembly: `disassemble`
