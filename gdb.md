@@ -27,11 +27,13 @@
 - Step-over (source-line): `next`
 - Step-over (instruction): `nexti`
 
+## Altering Execution
+- Set register to a certain value: `set <reg>=<value>`, e.g., `set $rax=1337`
 ## Concurrent Execution
 - List threads: `info threads`
 - Follow thread: `thread <no>`
 
-## Examine Memory
+## Memory
 - Print variable content: `print <var-name>`
 - Print memory: `x/<num-bytes><unit><format> <addr>`
   * `<unit>`:
@@ -49,7 +51,6 @@
   * e.g. `x/gx $rdi`
 - Dump memory to a file: `dump binary memory <out-filename> <memory-addr-start> <memory-addr-end>`
   * note that the end address is exclusive
-
 
 ## Gather Information
 - Show disassembly: `disassemble`
