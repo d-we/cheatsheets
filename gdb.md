@@ -32,6 +32,7 @@
 ## Concurrent Execution
 - List threads: `info threads`
 - Follow thread: `thread <no>`
+- Configure fork behavior: `set follow-fork-mode <child|parent>`
 
 ## Memory
 - Print variable content: `print <var-name>`
