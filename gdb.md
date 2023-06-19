@@ -10,7 +10,7 @@
 - Start execution: `run`
 - Start execution and break at start: `start`
 
-- Breakpoint at address: `break <addr>`
+- Breakpoint at address: `break *<addr>`
 - Breakpoint at function: `break <fun-name>`
 - Breakpoint at source line: `break <file>:<line-number>`
 - List breakpoints: `info breakpoints`
