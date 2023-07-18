@@ -52,6 +52,7 @@
   * e.g. `x/gx $rdi`
 - Dump memory to a file: `dump binary memory <out-filename> <memory-addr-start> <memory-addr-end>`
   * note that the end address is exclusive
+- Show memory pages (gef-specific): `vmmap`
 
 ## Gather Information
 - Show disassembly: `disassemble`
